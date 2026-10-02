@@ -2,120 +2,125 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Happy Birthday, Shruti &amp; Prateik</title>
-  <meta name="description" content="A birthday gift: two nights at Black Dolphin Inn on the Indian River, New Smyrna Beach, Florida.">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>A card for Shruti &amp; Prateik</title>
+  <meta name="description" content="A birthday card: two nights at Black Dolphin Inn on the Indian River, New Smyrna Beach, Florida.">
   <meta name="robots" content="noindex">
-  <meta name="theme-color" content="#1A2F3E">
+  <meta name="theme-color" content="#E9DFCF">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;1,6..96,400&family=Work+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Karla:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%231A2F3E'/%3E%3Ccircle cx='16' cy='16' r='7' fill='%23C4915F'/%3E%3C/svg%3E">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='4' fill='%23C4A476'/%3E%3Ccircle cx='16' cy='18' r='6' fill='%23B5473A'/%3E%3C/svg%3E">
 </head>
-<body class="is-sealed">
+<body>
+  <noscript><p class="nojs-note">A birthday card for Shruti &amp; Prateik.</p></noscript>
 
-  <section class="reveal" id="reveal" aria-labelledby="reveal-title">
-    <div class="reveal-inner">
-      <h1 class="reveal-title" id="reveal-title">Happy Birthday, Shruti &amp; Prateik</h1>
-      <p class="reveal-sub">We have something for you.</p>
-      <button class="reveal-btn" id="open-gift" type="button" autofocus>Open your gift</button>
+  <main class="scene">
+    <div class="stage" id="stage">
+
+      <!-- Envelope -->
+      <button class="envelope" id="envelope" type="button" aria-expanded="false" aria-controls="card" aria-label="A sealed envelope addressed to Shruti and Prateik. Open it.">
+        <span class="env-back"></span>
+        <span class="env-liner"></span>
+        <span class="env-front">
+          <span class="address" aria-hidden="true">
+            <span class="address-to">to</span>
+            <span class="address-line">Shruti &amp; Prateik</span>
+            <span class="address-line2">(open me)</span>
+          </span>
+          <span class="stamp" aria-hidden="true">
+            <svg viewBox="0 0 30 20" width="26" height="18"><path d="M3 17 C8 10, 12 9, 15 12 C14 6, 18 4, 21 8 C23 3, 26 3, 27 6 L24 17 Z" fill="#5A9E8F" stroke="#3D7A73" stroke-width="1" stroke-linejoin="round"/></svg>
+            <span class="stamp-text">FLORIDA</span>
+          </span>
+          <svg class="postmark" viewBox="0 0 80 80" aria-hidden="true">
+            <defs><path id="arc" d="M12 40 A28 28 0 0 1 68 40"/></defs>
+            <circle cx="40" cy="40" r="30" fill="none" stroke="currentColor" stroke-width="1.5"/>
+            <circle cx="40" cy="40" r="24" fill="none" stroke="currentColor" stroke-width=".6"/>
+            <text font-size="6.5" letter-spacing=".8" fill="currentColor"><textPath href="#arc" startOffset="50%" text-anchor="middle">NEW SMYRNA BCH · FL</textPath></text>
+            <text x="40" y="44" font-size="8" text-anchor="middle" fill="currentColor">2026</text>
+            <path d="M8 56 H72 M8 60 H72 M8 64 H72" stroke="currentColor" stroke-width="1"/>
+          </svg>
+        </span>
+        <span class="flap-liner"></span>
+        <span class="flap"></span>
+        <span class="seal">
+          <svg viewBox="0 0 30 20" width="18" height="12" aria-hidden="true"><path d="M3 17 C8 10, 12 9, 15 12 C14 6, 18 4, 21 8 C23 3, 26 3, 27 6 L24 17 Z" fill="#F3ECE0"/></svg>
+        </span>
+      </button>
+
+      <!-- Card -->
+      <article class="card" id="card" tabindex="-1" inert aria-label="Birthday card">
+        <div class="card-cover" aria-hidden="true">
+          <span class="cover-title">Happy Birthday!</span>
+          <svg class="cover-wave" viewBox="0 0 120 14" width="110" height="14"><path d="M2 8 Q17 1, 32 8 T62 8 T92 8 T118 8" fill="none" stroke="#5A9E8F" stroke-width="2" stroke-linecap="round"/></svg>
+        </div>
+
+        <div class="card-top">
+          <h1 class="card-title">Happy Birthday,<br>Shruti &amp; Prateik!</h1>
+          <svg class="dolphin-scene" viewBox="0 0 120 60" aria-hidden="true">
+            <path class="wave wave-1" d="M0 45 Q15 38, 30 45 T60 45 T90 45 T120 45" stroke="#5A9E8F" stroke-width="2" stroke-linecap="round" fill="none"/>
+            <path class="wave wave-2" d="M0 52 Q15 46, 30 52 T60 52 T90 52 T120 52" stroke="#5A9E8F" stroke-width="1.5" stroke-linecap="round" fill="none" opacity=".5"/>
+            <g class="dolphin">
+              <!-- body: arcing leap, nose at right, tail at left -->
+              <path d="M40 38 C44 26, 52 16, 64 13 C74 10.5, 84 14, 90 20 C88 21, 84 20, 80 19.5 C76 23, 70 28, 62 31 C56 33, 50 35, 46 36 C44 37, 42 38, 40 38 Z" fill="#5A9E8F" stroke="#3D7A73" stroke-width="1" stroke-linejoin="round"/>
+              <!-- tail flukes -->
+              <path d="M41 38 C36 36, 33 38, 31 42 C35 41, 38 41, 41 42 C39 44, 38 47, 39 50 C41 46, 44 42, 47 38 Z" fill="#5A9E8F" stroke="#3D7A73" stroke-width="1" stroke-linejoin="round"/>
+              <!-- dorsal fin -->
+              <path d="M62 14 C60 8, 66 6, 70 11" fill="#5A9E8F" stroke="#3D7A73" stroke-width="1" stroke-linecap="round"/>
+              <!-- pectoral fin -->
+              <path d="M66 28 C64 32, 60 33, 58 31" fill="none" stroke="#3D7A73" stroke-width="1" stroke-linecap="round"/>
+              <circle cx="80" cy="16.5" r="1.3" fill="#372C27"/>
+            </g>
+          </svg>
+        </div>
+
+        <div class="card-inside">
+          <div class="card-inside-inner">
+            <p class="gift">Your gift is a little getaway:<br>two nights at the Black Dolphin Inn,<br>a small place on the Indian River<br>in New Smyrna Beach, Florida.</p>
+            <p class="dates">No dates set yet. Pick a time that works and we'll handle the rest.</p>
+
+            <ul class="postcards" aria-label="A few photos">
+              <li class="photo photo-a"><img src="images/sunset-2.jpg" alt="Sunset over the river from the inn's dock" width="768" height="960" loading="lazy"><span class="caption">the dock</span><span class="corner c-tl"></span><span class="corner c-br"></span></li>
+              <li class="photo photo-b"><img src="images/inn-dusk.jpg" alt="The inn at dusk with its lights on" width="1200" height="650" loading="lazy"><span class="caption">home base</span><span class="corner c-tr"></span><span class="corner c-bl"></span></li>
+              <li class="photo photo-c"><img src="images/wildlife.jpg" alt="A heron on the flats with a dolphin fin behind it" width="1600" height="1057" loading="lazy"><span class="caption">locals</span><span class="corner c-tl"></span><span class="corner c-br"></span></li>
+            </ul>
+
+            <p class="actions">
+              <button class="btn" id="peek-open" type="button" aria-controls="peek" aria-expanded="false">Peek at your getaway</button>
+            </p>
+            <p class="closing">with love <svg viewBox="0 0 20 18" width="18" height="16" aria-hidden="true"><path d="M10 16 C4 11, 1 8, 2 4.5 C3 1.5, 7 1, 10 4.5 C13 1, 17 1.5, 18 4.5 C19 8, 16 11, 10 16Z" fill="none" stroke="#B5473A" stroke-width="1.6" stroke-linejoin="round"/></svg></p>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <p class="replay-row"><button class="link-btn" id="replay" type="button">Seal it back up</button></p>
+  </main>
+
+  <!-- Peek: the back of the card -->
+  <section class="peek" id="peek" hidden tabindex="-1" role="dialog" aria-modal="true" aria-labelledby="peek-title">
+    <div class="peek-card">
+      <img class="peek-photo" src="images/inn-deck.jpg" alt="Two chairs on a private deck looking out over the river" width="1024" height="683" loading="lazy">
+      <h2 id="peek-title">Black Dolphin Inn</h2>
+      <p>A 14-room inn on the Indian River in New Smyrna Beach. Private dock, sunsets over the water, and the beach a few minutes away across the causeway. Dolphins and manatees pass by the riverfront.</p>
+      <p>Rooms are posh and comfortable, many with river views; some have jetted tubs or private decks. You pick the room when we book.</p>
+      <p><a href="https://www.blackdolphininn.com/" target="_blank" rel="noopener">blackdolphininn.com</a></p>
+      <ul class="peek-photos" aria-label="Rooms">
+        <li><img src="images/room-1.jpg" alt="Bedroom with white linens and a balcony open to the river" width="1200" height="550" loading="lazy"></li>
+        <li><img src="images/room-4.jpg" alt="Soaking tub at the foot of a bed in a bright room" width="1024" height="683" loading="lazy"></li>
+      </ul>
+      <h3>While you're there</h3>
+      <ul class="ideas">
+        <li>Kayak the Indian River</li>
+        <li>Walk Flagler Ave to the beach</li>
+        <li>Dolphin cruise with the <a href="https://www.marinediscoverycenter.org/" target="_blank" rel="noopener">Marine Discovery Center</a></li>
+        <li>Browse the shops on Canal Street</li>
+      </ul>
+      <p class="fine">Nothing's booked or ticketed yet, just ideas for your trip.</p>
+      <p class="actions"><button class="btn" id="peek-close" type="button">Back to your card</button></p>
     </div>
   </section>
-
-  <main class="page" id="page" aria-hidden="true">
-
-    <header class="hero">
-      <img class="hero-img" src="images/hero-sunset.jpg" alt="Sunset over the Indian River from the inn's dock, a heron crossing the water" width="914" height="960" fetchpriority="high">
-      <div class="hero-text">
-        <p class="hero-gift">Two nights at Black Dolphin Inn</p>
-        <p class="hero-place">New Smyrna Beach, Florida</p>
-      </div>
-    </header>
-
-    <section class="section" aria-labelledby="inn-title">
-      <div class="col">
-        <h2 id="inn-title">Fourteen rooms on the river</h2>
-        <p>Black Dolphin Inn sits on the Indian River in New Smyrna Beach, right on the Intracoastal Waterway. Fourteen rooms, a dock that faces west, and not much else between you and the water.</p>
-        <p>The sunsets are worth arranging your evening around. The river is wide here, and the sky does the thing you hope it'll do. In the mornings, dolphins and manatees pass along the waterfront. It's a quiet, well-kept place: boutique in the real sense, not the marketing sense.</p>
-      </div>
-      <div class="pair">
-        <img src="images/inn-dusk.jpg" alt="The inn at dusk with its lights on, palms in the courtyard" width="1200" height="650" loading="lazy">
-        <img src="images/inn-deck.jpg" alt="Two chairs on a private deck looking out over the river" width="1024" height="683" loading="lazy">
-      </div>
-    </section>
-
-    <section class="section" aria-labelledby="rooms-title">
-      <div class="col">
-        <h2 id="rooms-title">The rooms</h2>
-        <p>River views, good light, comfortable beds. Some have jetted tubs and private decks, though the specific room is yours to choose when you book. Browse what's available and pick the one that looks right.</p>
-      </div>
-      <ul class="gallery" aria-label="Room photographs">
-        <li><img src="images/room-1.jpg" alt="Bedroom with white linens and a balcony open to the river" width="1200" height="550" loading="lazy"></li>
-        <li><img src="images/room-2.jpg" alt="Room with a patterned bedspread and a desk by the window" width="1024" height="683" loading="lazy"></li>
-        <li><img src="images/room-3.jpg" alt="Bedroom with pale blue pillows and a door onto a garden" width="1200" height="650" loading="lazy"></li>
-        <li><img src="images/room-4.jpg" alt="Soaking tub at the foot of a bed in a bright room" width="1024" height="683" loading="lazy"></li>
-        <li><img src="images/room-5.jpg" alt="Room with a navy headboard and a ceiling fan, river light through the door" width="1024" height="714" loading="lazy"></li>
-        <li><img src="images/room-6.jpg" alt="Bathroom with blue mosaic tile and a deep tub" width="1024" height="689" loading="lazy"></li>
-      </ul>
-    </section>
-
-    <section class="section section-tint" aria-labelledby="dolphins-title">
-      <div class="col">
-        <h2 id="dolphins-title">Go find some dolphins</h2>
-      </div>
-      <div class="feature">
-        <img class="feature-img" src="images/wildlife.jpg" alt="A heron wading on the flats while a dolphin fin cuts the water behind it" width="1600" height="1057" loading="lazy">
-        <div class="feature-text">
-          <p>The Marine Discovery Center runs a naturalist-led dolphin cruise on the Indian River: a 40-passenger pontoon, afternoon or evening departures, with a guide who knows the water. You'll likely see bottlenose dolphins, maybe manatees, almost certainly pelicans.</p>
-          <p>It's not a guarantee, since wildlife sets its own agenda and the boat only goes out in fair weather, but it's a wonderful couple of hours on the water. It departs from 116 N Causeway, a few minutes from the inn. Check <a href="https://www.marinediscoverycenter.org/">marinediscoverycenter.org</a> for the schedule.</p>
-        </div>
-      </div>
-      <img class="break-img" src="images/inlet.jpg" alt="Aerial view of the inlet where the river meets the Atlantic" width="1250" height="833" loading="lazy">
-      <div class="col">
-        <h3>While you're there</h3>
-        <ul class="plain">
-          <li>Flagler Avenue runs to the beach, the Atlantic side of the causeway, with good sand and warm water.</li>
-          <li>Canal Street is New Smyrna's old downtown: galleries, restaurants, shops with actual personality.</li>
-          <li>Guided kayak eco-tours through the river and mangrove channels; outfitters are nearby.</li>
-          <li>New Smyrna is a surf town. Boards and lessons are easy to find if you want them.</li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="section" aria-labelledby="weekend-title">
-      <div class="col">
-        <h2 id="weekend-title">A weekend, loosely</h2>
-      </div>
-      <div class="days">
-        <div class="day">
-          <h3>Friday evening</h3>
-          <p>Arrive, check in, find the dock. The sunset faces you.</p>
-        </div>
-        <div class="day">
-          <h3>Saturday</h3>
-          <p>No alarm. Walk or drive across the causeway to Flagler Avenue and the beach. If the weather cooperates, the afternoon dolphin cruise is a good use of a few hours. Dinner somewhere on Canal Street.</p>
-        </div>
-        <div class="day">
-          <h3>Sunday</h3>
-          <p>A slow morning at the inn. Late breakfast, one more look at the river, then head out when you're ready.</p>
-        </div>
-      </div>
-      <div class="col">
-        <p class="caption">This is a suggestion, not a schedule. Do whatever sounds good. The dates are yours to pick, whenever a weekend opens up.</p>
-      </div>
-    </section>
-
-    <footer class="footer">
-      <ul class="footer-links">
-        <li>Black Dolphin Inn, <a href="https://www.blackdolphininn.com/">blackdolphininn.com</a></li>
-        <li>Marine Discovery Center, <a href="https://www.marinediscoverycenter.org/">marinediscoverycenter.org</a></li>
-      </ul>
-      <p class="footer-note">Happy birthday, you two. With love.</p>
-      <p class="footer-credit">Photographs courtesy of Black Dolphin Inn.</p>
-    </footer>
-
-  </main>
 
   <script src="script.js"></script>
 </body>
