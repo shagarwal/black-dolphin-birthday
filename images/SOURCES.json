@@ -1,0 +1,98 @@
+[
+ {
+  "file": "images/hero-sunset.jpg",
+  "source_url": "https://api.blackdolphininn.com/uploads/Heron_dock_d2e68ff6df.jpg",
+  "description": "Hero: sunset over the river from the dock, heron silhouette",
+  "width": 914,
+  "height": 960,
+  "kb": 67
+ },
+ {
+  "file": "images/inn-dusk.jpg",
+  "source_url": "https://api.blackdolphininn.com/uploads/night_facade_098874789e.jpg",
+  "description": "The inn at dusk, lights on",
+  "width": 1200,
+  "height": 650,
+  "kb": 186
+ },
+ {
+  "file": "images/inn-deck.jpg",
+  "source_url": "https://api.blackdolphininn.com/uploads/PBF_5_f26f60f480.jpeg",
+  "description": "Private deck chairs facing the river",
+  "width": 1024,
+  "height": 683,
+  "kb": 173
+ },
+ {
+  "file": "images/room-1.jpg",
+  "source_url": "https://api.blackdolphininn.com/uploads/rooms_header2_75478abda1.jpg",
+  "description": "Room with river view",
+  "width": 1200,
+  "height": 550,
+  "kb": 111
+ },
+ {
+  "file": "images/room-2.jpg",
+  "source_url": "https://api.blackdolphininn.com/uploads/superior_coastal_3_5b4dbe9e69.jpg",
+  "description": "Room, Superior Coastal",
+  "width": 1024,
+  "height": 683,
+  "kb": 129
+ },
+ {
+  "file": "images/room-3.jpg",
+  "source_url": "https://api.blackdolphininn.com/uploads/room_105_homepage_3582d72e39.jpg",
+  "description": "Room 105 bedroom",
+  "width": 1200,
+  "height": 650,
+  "kb": 132
+ },
+ {
+  "file": "images/room-4.jpg",
+  "source_url": "https://api.blackdolphininn.com/uploads/Lux_bay_front2_0716d16197.jpeg",
+  "description": "Luxury Bayfront room with soaking tub",
+  "width": 1024,
+  "height": 683,
+  "kb": 70
+ },
+ {
+  "file": "images/room-5.jpg",
+  "source_url": "https://api.blackdolphininn.com/uploads/SUITE_DREAMS_82e01f8ba9.jpeg",
+  "description": "Suite, river light",
+  "width": 1024,
+  "height": 714,
+  "kb": 115
+ },
+ {
+  "file": "images/room-6.jpg",
+  "source_url": "https://api.blackdolphininn.com/uploads/DBV_10_d0ca762532.jpeg",
+  "description": "Blue tile bath",
+  "width": 1024,
+  "height": 689,
+  "kb": 123
+ },
+ {
+  "file": "images/wildlife.jpg",
+  "source_url": "https://api.blackdolphininn.com/uploads/eco_adventure_1ac29b1428.jpeg",
+  "description": "Heron and dolphin fin on the flats",
+  "width": 1600,
+  "height": 1057,
+  "kb": 129
+ },
+ {
+  "file": "images/inlet.jpg",
+  "source_url": "https://api.blackdolphininn.com/uploads/inlet_9c5cf4db23.jpg",
+  "description": "Aerial of Ponce Inlet and the beach",
+  "width": 1250,
+  "height": 833,
+  "kb": 255
+ },
+ {
+  "file": "images/sunset-2.jpg",
+  "source_url": "https://api.blackdolphininn.com/uploads/Dock_sunset_654c5623b7.jpg",
+  "description": "Sunset from the dock",
+  "width": 768,
+  "height": 960,
+  "kb": 85
+ }
+]
