@@ -75,7 +75,8 @@ body:not(.is-sealed) .reveal { transform: translateY(-100%); visibility: hidden;
 
 .gift { padding-top: 0 !important; }
 .gift-photo { margin: 0 calc(-1 * var(--pad)); }
-.gift-photo img { border-radius: 0; width: 100%; }
+.gift-photo img { border-radius: 0; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; object-position: 60% 50%; }
+@media (min-width: 720px) { .gift-photo img { aspect-ratio: auto; } }
 .gift-text { padding-top: 40px; }
 .gift-greeting { font-family: var(--serif); font-style: italic; color: var(--river); font-size: 1.25rem; margin-bottom: 12px; }
 .gift-headline { font-size: 2rem; line-height: 1.12; color: var(--honey); margin-bottom: 8px; }
